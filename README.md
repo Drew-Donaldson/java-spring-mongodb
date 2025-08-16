@@ -5,10 +5,10 @@ This repository contains a Spring Boot 3 application developed as part of the Ud
 
 ### Key Features
 - Configured **Spring Data MongoDB** to connect to a MongoDB database.
-- Implemented a REST API for performing CRUD operations on entities (e.g., user or booking data).
+- Implemented a REST API for performing CRUD operations on entities (e.g., Person data).
 - Used **Spring Data MongoDB repositories** for simplified data access.
 - Demonstrated MongoDB document modeling with Java entities.
-- Integrated validation and error handling for robust API interactions.
+- Integrated validation and error handling for API interactions.
 - Supported querying MongoDB with Spring Data's query methods and MongoTemplate.
 
 ## Technologies Used
@@ -19,12 +19,3 @@ This repository contains a Spring Boot 3 application developed as part of the Ud
 - **Maven**: Dependency management
 - **Postman**: For testing REST endpoints
 - **Lombok**: To reduce boilerplate code (if applicable)
-
-## Learning Outcomes
-Through this project, I gained hands-on experience with:
-- Setting up Spring Boot with MongoDB for NoSQL data management.
-- Designing and mapping Java entities to MongoDB documents.
-- Building RESTful APIs with Spring Boot and Spring Data MongoDB.
-- Using MongoDB repositories and MongoTemplate for data operations.
-- Implementing validation and error handling in a REST API.
-- Understanding the advantages of NoSQL databases for flexible data schemas.
